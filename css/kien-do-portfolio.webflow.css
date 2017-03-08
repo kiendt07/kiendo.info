@@ -1,0 +1,99 @@
+.brand {
+  margin-top: 40px;
+  float: left;
+  font-family: Inconsolata, monospace;
+  color: #0a0a0a;
+  font-weight: 700;
+}
+
+.nav-links {
+  margin-top: 40px;
+  float: right;
+}
+
+.nav-link {
+  margin-right: 15px;
+  margin-left: 15px;
+  padding-right: 0px;
+  padding-left: 0px;
+  font-family: 'Open Sans', sans-serif;
+  color: #000;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: -1px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.nav-link:hover {
+  padding-left: 0px;
+  border-bottom: 3px solid #000;
+}
+
+.greeting {
+  margin-top: 7%;
+}
+
+.greeting-heading {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 80px;
+  line-height: 80px;
+  text-align: left;
+}
+
+.student {
+  color: #17624b;
+}
+
+.name-span {
+  color: #f48059;
+}
+
+.building-product {
+  color: #17624b;
+}
+
+.new-tech {
+  color: #17624b;
+}
+
+.legend-photo {
+  height: 500px;
+  background-image: url('../images/2016-03-02-10.28.08-1.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.ava {
+  margin-top: -37px;
+}
+
+.ava-container {
+  display: block;
+  overflow: hidden;
+  width: 300px;
+  height: 300px;
+}
+
+.section {
+  margin-top: 0px;
+}
+
+.asfdasdf {
+  text-align: left;
+}
+
+.about {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 27px;
+  line-height: 29px;
+}
+
+.about-parallax {
+  position: relative;
+}
+
+.body {
+  font-family: 'Open Sans', sans-serif;
+}
+
