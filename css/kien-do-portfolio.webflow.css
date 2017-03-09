@@ -202,7 +202,9 @@
 }
 
 .link {
+  font-family: Inconsolata, monospace;
   color: #0a0a0a;
+  font-size: 17px;
 }
 
 .link.lklk {
@@ -212,6 +214,10 @@
   float: left;
   color: hsla(0, 0%, 4%, .5);
   text-align: center;
+}
+
+.link.mail {
+  margin-right: 20px;
 }
 
 .quote {
@@ -360,6 +366,10 @@
   font-family: 'Open Sans', sans-serif;
 }
 
+.menu {
+  float: right;
+}
+
 html.w-mod-js *[data-ix="fade-in-when-load"] {
   display: block;
   opacity: 0;
@@ -457,6 +467,9 @@ html.w-mod-js *[data-ix="fade-from-left"] {
     font-size: 90px;
     line-height: 80px;
   }
+  .social.social-nav {
+    float: left;
+  }
 }
 
 @media (max-width: 767px) {
@@ -473,6 +486,11 @@ html.w-mod-js *[data-ix="fade-from-left"] {
     text-align: left;
     text-transform: none;
   }
+  .social.social-nav {
+    display: block;
+    margin-left: 10px;
+    float: left;
+  }
   .travel-img {
     display: block;
     padding-left: 0px;
@@ -480,6 +498,9 @@ html.w-mod-js *[data-ix="fade-from-left"] {
   .container {
     padding-right: 10px;
     padding-left: 10px;
+  }
+  .menu {
+    float: right;
   }
 }
 
