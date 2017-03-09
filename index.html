@@ -1,10 +1,14 @@
 <!DOCTYPE html>
 <!--  This site was created in Webflow. http://www.webflow.com -->
-<!--  Last Published: Thu Mar 09 2017 09:13:15 GMT+0000 (UTC)  -->
+<!--  Last Published: Thu Mar 09 2017 20:18:31 GMT+0000 (UTC)  -->
 <html data-wf-page="58bd9b1b690b569a3313a1ad" data-wf-site="58bd9b1b690b569a3313a1ac">
 <head>
   <meta charset="utf-8">
-  <title>Kien Do Portfolio</title>
+  <title>Kien Do Personal Website | kiendo.info</title>
+  <meta content="Kien Do Personal Website. Do Trung Kien portfolio. JBroc blogging. Learn fast and build things." name="description">
+  <meta content="Kien Do Personal Website | kiendo.info" property="og:title">
+  <meta content="Kien Do Personal Website. Do Trung Kien portfolio. JBroc blogging. Learn fast and build things." property="og:description">
+  <meta content="summary" name="twitter:card">
   <meta content="width=device-width, initial-scale=1" name="viewport">
   <meta content="Webflow" name="generator">
   <link href="css/normalize.css" rel="stylesheet" type="text/css">
@@ -31,21 +35,42 @@
   </script>
 </head>
 <body class="body">
-  <div class="navbar w-nav" data-animation="default" data-collapse="medium" data-duration="400" data-ix="drop-in-when-load">
-    <div class="w-container"><a class="w-clearfix w-nav-brand" href="#"><h1 class="brand">/kiendo.info</h1></a>
-      <nav class="w-nav-menu" role="navigation"><a class="nav-link w-nav-link" href="#">Home</a><a class="nav-link w-nav-link" href="#">About</a><a class="nav-link w-nav-link" href="#">Contact</a>
+  <div class="navbar-still w-nav" data-animation="default" data-collapse="medium" data-duration="400">
+    <div class="w-container">
+      <a class="w-nav-brand" href="#">
+        <p class="brand-p p">/kiendo.info</p>
+      </a>
+      <nav class="nav-menu w-nav-menu" role="navigation"><a class="nav-link w-nav-link" href="#experience">My experience</a><a class="nav-link w-nav-link" href="#">My Prize</a><a class="nav-link w-nav-link" href="#">Contact</a>
       </nav>
       <div class="w-nav-button">
         <div class="w-icon-nav-menu"></div>
       </div>
     </div>
   </div>
-  <div class="greeting">
+  <div class="navbar w-nav" data-animation="default" data-collapse="medium" data-duration="400" data-ix="display-none">
+    <div class="w-container">
+      <div class="social social-nav">
+        <a class="w-inline-block" href="https://www.linkedin.com/in/kien-do-hust/" target="_blank"><img class="social-link" src="images/linkedin-logo-icon.png" width="64">
+        </a>
+        <a class="w-inline-block" href="https://www.facebook.com/kiendo.95" target="_blank"><img class="social-link" src="images/59157.png" width="64">
+        </a>
+        <a class="w-inline-block" href="https://medium.com/@jbroc" target="_blank"><img class="social-link" src="images/53-medium-3-128.png" width="64">
+        </a>
+        <a class="w-inline-block" href="https://github.com/kiendt07" target="_blank"><img class="social-link" src="images/mark-github-128.png" width="64">
+        </a>
+      </div>
+      <nav class="nav-menu-hide w-nav-menu" role="navigation"><a class="nav-link w-nav-link" href="#home">Home</a><a class="blog-link nav-link w-nav-link" href="http://www.jbroc.tk/posts/" target="_blank">Blog</a><a class="nav-link w-nav-link" href="#experience">Contact</a>
+      </nav>
+      <div class="w-nav-button">
+        <div class="w-icon-nav-menu"></div>
+      </div>
+    </div>
+  </div>
+  <div class="greeting" data-ix="show-when-scroll-down" id="home">
     <div class="w-container">
       <div class="w-row">
         <div class="cok w-col w-col-10">
-          <h1 class="big-text"><span data-ix="fade-in-when-load" class="line">A youngster<br xmlns="http://www.w3.org/1999/xhtml"></span><span data-ix="fade-in-when-load-2" class="line">fascinated</span> <span data-ix="fade-in-when-load-3" class="line">by&nbsp;building</span> <span data-ix="fade-in-when-load-4" class="line">things&nbsp;with</span> <span data-ix="fade-in-when-load-5">new tech</span></h1>
-          <p class="brief" data-ix="drop-in-when-load-2">Have <a target="_blank" href="http://google.com" class="link">working experiences</a> with Ruby on Rails | ReactJS | AngularJS</p>
+          <h1 class="big-text"><span data-ix="fade-in-when-load" class="line">A youngster<br xmlns="http://www.w3.org/1999/xhtml"></span><span data-ix="fade-in-when-load-2" class="line">fascinated</span> <span data-ix="fade-in-when-load-3" class="line">by&nbsp;building</span> <span data-ix="fade-in-when-load-4" class="line">things&nbsp;with</span> <span data-ix="fade-in-when-load-5">new tech</span></h1><a class="button w-button" data-ix="fade-in-when-load-6" href="#experience">See my experience</a>
         </div>
         <div class="w-col w-col-2">
           <div></div>
@@ -53,32 +78,101 @@
       </div>
     </div>
   </div>
-  <div class="section" data-ix="new-interaction">
-    <div class="w-container">
+  <div class="after-first-section section" data-ix="show-navbar-when-scroll-down">
+    <div class="container w-container">
       <div class="w-row">
-        <div class="parallax-container w-col w-col-6" id="parallax">
-          <div class="ava-container" data-depth="0.4" data-ix="scroll-down"></div>
+        <div class="brief-description w-col w-col-4" data-ix="fade-from-left" id="parallax">
+          <div class="brief-container">
+            <p class="about" data-stellar-ratio="2">Hi, I'm Kien.</p>
+            <p class="brief">Currently being a student at Hanoi University of Science and Technology.
+              <br>I love coding to build things, especially when trying new technology.</p>
+          </div>
         </div>
-        <div class="about-parallax w-col w-col-6" data-depth="0.5">
+        <div class="about-parallax w-col w-col-8" data-depth="0.5">
           <ul class="w-list-unstyled" id="list">
             <li class="layer" data-depth="0.2">
-              <p class="about" data-stellar-ratio="2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
+              <div class="ava-container" data-depth="0.4" data-ix="pop-up"></div>
             </li>
           </ul>
         </div>
       </div>
     </div>
   </div>
+  <div class="section" id="experience">
+    <div class="w-container">
+      <div class="w-row">
+        <div class="w-col w-col-6">
+          <h1>SKILLS</h1>
+          <p class="p"><span class="ror">Ruby on Rails</span> | ReactJS | AngularJS</p>
+          <h1 class="certificate">CERTIFICATIONS</h1>
+          <p class="p">FreeCodeCamp Front-End Certification - 2016</p>
+          <p class="p">Coderschool Ruby on Rails Alumi - 2016</p>
+        </div>
+        <div class="w-col w-col-6">
+          <h1>WORKING EXPERIENCE</h1>
+          <h4><a href="https://www.smartosc.com" target="_blank" class="link">SmartOSC</a> - Internship</h4>
+          <p class="p">Work on a feature of <a href="http://xpos.smartosc.com" target="_blank" class="link">XPOS</a> - a Point of Sale product, built with Magento</p>
+          <h4><a href="https://ezcloud.vn/en/" target="_blank" class="link">EzCloud</a>&nbsp;- Internship</h4>
+          <p class="p">Build an mobile app for hotel and restaurant management by Ionic and Cordova (AngularJS)</p>
+        </div>
+      </div>
+    </div>
+  </div>
   <div class="section">
-    <div class="w-container"></div>
+    <div class="w-container">
+      <div class="w-row">
+        <div class="w-col w-col-4"><img sizes="(max-width: 767px) 96vw, (max-width: 991px) 229.328125px, 299.984375px" src="images/RubySwiftAndroid-ad01ee9f2aec2fa0db92f5d8828b2b4ca4c3d8424f8e2526bdd3fafc5ab537ea.png" srcset="images/RubySwiftAndroid-ad01ee9f2aec2fa0db92f5d8828b2b4ca4c3d8424f8e2526bdd3fafc5ab537ea-p-500x500.png 500w, images/RubySwiftAndroid-ad01ee9f2aec2fa0db92f5d8828b2b4ca4c3d8424f8e2526bdd3fafc5ab537ea.png 800w">
+        </div>
+        <div class="w-col w-col-8">
+          <h1 class="the-price" data-ix="pop-up">The Prize</h1>
+          <h3>Grand Prize - CoderSchool Demo Day Hanoi</h3>
+          <p class="p"><a href="http://www.coderschool.vn" target="_blank" class="link">CoderSchool</a> is a high quality, fast-paced training codecamp. After 8 weeks of learning, my team won the grand prize for the best project built by Ruby on Rails.
+            <br><a href="http://datkhamonline.herokuapp.com" target="_blank" class="link"><strong><em>Datkham.online</em></strong></a> is a place where people with sickness can easily find and request the nearest doctor. It's like Uber for healthcare.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="section" data-ix="show-navbarwhen-scrh">
+    <div class="w-container">
+      <div class="w-row">
+        <div class="w-col w-col-4">
+          <h1 class="what-else">What else</h1>
+          <h4 class="h4">Traveling</h4>
+          <p class="p">On a motorbike. Check out <a target="_blank" href="https://www.youtube.com/watch?v=8fuITYx2zgA&list=PLlafbFRsMq0OZt-lmbCDgvuaLceTttAdo" class="link">all my trips on Youtube</a>
+          </p>
+          <h4 class="h4">Football</h4>
+          <p class="p">I love reading news and facts and stories of the football world.
+            <br><a target="_blank" href="http://soccer-quotes.webflow.io" class="link">Here is a site</a>&nbsp;I built for this hobby (still working on it).</p>
+          <h4 class="h4">Running</h4>
+          <p class="p">The new year's goal is accomplishing a FM - Full Marathon 42km.</p>
+        </div>
+        <div class="w-col w-col-8"><img class="travel-img" sizes="(max-width: 767px) 96vw, (max-width: 991px) 478.65625px, 619.984375px" src="images/2016-09-24-02.05.25-1.jpg" srcset="images/2016-09-24-02.05.25-1-p-500x375.jpeg 500w, images/2016-09-24-02.05.25-1-p-800x600.jpeg 800w, images/2016-09-24-02.05.25-1-p-1080x811.jpeg 1080w, images/2016-09-24-02.05.25-1-p-1600x1200.jpeg 1600w, images/2016-09-24-02.05.25-1-p-2000x1500.jpeg 2000w, images/2016-09-24-02.05.25-1-p-2600x1951.jpeg 2600w, images/2016-09-24-02.05.25-1-p-3200x2400.jpeg 3200w, images/2016-09-24-02.05.25-1.jpg 3820w">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer" id="contact">
+    <div class="w-container">
+      <div class="w-row">
+        <div class="w-clearfix w-col w-col-6"><a class="link lklk" href="mailto:kien@kiendo.info?subject=Say hi!">React me at kien@kiendo.info</a>
+        </div>
+        <div class="w-clearfix w-col w-col-6">
+          <div class="social social-nav">
+            <a class="w-inline-block" href="https://www.linkedin.com/in/kien-do-hust/" target="_blank"><img class="social-link" src="images/linkedin-logo-icon.png" width="64">
+            </a>
+            <a class="w-inline-block" href="https://www.facebook.com/kiendo.95" target="_blank"><img class="social-link" src="images/59157.png" width="64">
+            </a>
+            <a class="w-inline-block" href="https://medium.com/@jbroc" target="_blank"><img class="social-link" src="images/53-medium-3-128.png" width="64">
+            </a>
+            <a class="w-inline-block" href="https://github.com/kiendt07" target="_blank"><img class="social-link" src="images/mark-github-128.png" width="64">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js" type="text/javascript"></script>
   <script src="js/webflow.js" type="text/javascript"></script>
   <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
-  <script src="https://dl.dropboxusercontent.com/u/50355912/jquery.parallax.min.js">
-  </script>
-  <script>
-    $('#parallax').parallax()
-  </script>
 </body>
 </html>
