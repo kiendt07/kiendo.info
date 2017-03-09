@@ -4374,3 +4374,17 @@
 
 }());
 
+/**
+ * ----------------------------------------------------------------------
+ * Webflow: Interactions: Init
+ */
+Webflow.require('ix').init([
+  {"slug":"scroll-down","name":"Scroll down","value":{"style":{},"triggers":[{"type":"scroll","offsetTop":"30%","stepsA":[{"wait":"100ms","transition":"transform 200 ease 0"},{"wait":"500ms","transition":"transform 200 ease 0","scaleX":1.02,"scaleY":1.02,"scaleZ":1},{"wait":"500ms","transition":"transform 200 ease 0","scaleX":1,"scaleY":1,"scaleZ":1}],"stepsB":[]}]}},
+  {"slug":"fade-in-when-load","name":"Fade in when load","value":{"style":{"display":"block","opacity":0,"x":"0px","y":"-30px","z":"0px"},"triggers":[{"type":"load","stepsA":[{"opacity":1,"transition":"transform 1000ms ease 0, opacity 1000ms ease 0","x":"0px","y":"0px","z":"0px"}],"stepsB":[]}]}},
+  {"slug":"fade-in-when-load-2","name":"Fade in when load 2","value":{"style":{"display":"block","opacity":0,"x":"0px","y":"-30px","z":"0px"},"triggers":[{"type":"load","stepsA":[{"wait":"300ms"},{"opacity":1,"transition":"transform 1000ms ease 0, opacity 1000ms ease 0","x":"0px","y":"0px","z":"0px"}],"stepsB":[]}]}},
+  {"slug":"fade-in-when-load-3","name":"Fade in when load 3","value":{"style":{"display":"block","opacity":0,"x":"0px","y":"-30px","z":"0px"},"triggers":[{"type":"load","stepsA":[{"wait":"600ms"},{"opacity":1,"transition":"transform 1000ms ease 0, opacity 1000ms ease 0","x":"0px","y":"0px","z":"0px"}],"stepsB":[]}]}},
+  {"slug":"fade-in-when-load-4","name":"Fade in when load 4","value":{"style":{"opacity":0,"x":"-30px","y":"0px","z":"0px"},"triggers":[{"type":"load","stepsA":[{"wait":"1000ms"},{"display":"block","opacity":1,"transition":"transform 1000ms ease 0, opacity 1000ms ease 0","x":"0px","y":"0px","z":"0px"}],"stepsB":[]}]}},
+  {"slug":"fade-in-when-load-5","name":"Fade in when load 5","value":{"style":{"opacity":0,"x":"-30px","y":"0px","z":"0px"},"triggers":[{"type":"load","stepsA":[{"wait":"1200ms"},{"display":"block","opacity":1,"transition":"transform 1000ms ease 0, opacity 1000ms ease 0","x":"0px","y":"0px","z":"0px"}],"stepsB":[]}]}},
+  {"slug":"drop-in-when-load","name":"Drop in when load","value":{"style":{"display":"block","opacity":0,"x":"0px","y":"-39px","z":"0px"},"triggers":[{"type":"load","stepsA":[{"wait":"1200ms"},{"display":"block","opacity":1,"transition":"transform 1000ms ease 0, opacity 200 ease 0","x":"0px","y":"0px","z":"0px"}],"stepsB":[]},{"type":"scroll","offsetTop":"10%","stepsA":[],"stepsB":[{"display":"block","transition":"transform 500ms ease 0","x":"0px","y":"-76px","z":"0px"},{"transition":"transform 200 ease 0"}]}]}},
+  {"slug":"drop-in-when-load-2","name":"Drop in when load 2","value":{"style":{"display":"block","opacity":0,"x":"0px","y":"35px","z":"0px"},"triggers":[{"type":"load","stepsA":[{"wait":"1200ms"},{"display":"block","opacity":1,"transition":"transform 1000ms ease 0, opacity 200 ease 0","x":"0px","y":"0px","z":"0px"}],"stepsB":[]}]}}
+]);
